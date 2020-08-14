@@ -1,0 +1,98 @@
+html,*::after, *::before, *{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#FFA07A;
+    margin-bottom:25px;
+    width:90%;
+    margin:0 auto;
+}
+header{
+    background-color:#f8c9b7;
+    /* margin:0px;
+    padding:15px; */
+    font-family: 'Sriracha', cursive;
+}
+.nag{
+    display:flex;
+    width:80%;
+    margin:0 auto;
+    justify-content:space-between;
+    align-items:center;
+}
+nav a {
+    text-decoration:none;
+    font-size:1.2em;
+    color:black;
+}
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.title h1{
+    margin-right:15px;
+}
+.text-center{
+    text-align:center;
+}
+.margin{
+    margin-top:25px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.decoration{
+    text-decoration:underline;
+}
+img{
+    width:200px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(241, 70, 85, 0.753);
+}
+h1{
+    color:black;
+    font-family:Bradleys;
+    font-size:20px;
+    font-weight: bold;
+    margin-right:10px ;
+}
+h2{
+    color:#b63b1f;
+    font-family:AR CENA;
+    font-size:40px;
+    margin:10px 10px 10px 10px;
+    text-shadow:1px 1px 0px #000000 ;
+}  
+.sub{
+    color:#ff0077c0;
+    font-family:Chaparral Pro Light;
+    font-size:20px;
+    margin:10px 10px 10px 10px;
+    text-shadow:1px 1px 0px #770000 ;
+}
+.subtitulo{
+    color:#9d08d8dc;
+    font-family:Chaparral Pro Light;
+    font-size:20px;
+    margin:10px 10px 10px 10px;
+    text-shadow:1px 1px 0px #34034b ;
+}
+.contenedor__tipo{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:25px;
+}
+.tipo__pensamiento{
+    border-radius:8px;
+    text-align:center;
+    padding-top:30px;
+    background:#f8c291 ;
+    border:1px solid white;
+    width:400px;
+    height:200px;
+    overflow:auto;
+}

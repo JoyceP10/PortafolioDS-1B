@@ -1,0 +1,93 @@
+html,*::after, *::before, *{
+    margin:0;
+    padding:0;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain 100px;
+    background-size: cover ; */
+}
+body{
+    /* font-family: 'Sriracha', cursive; */
+    background:#FFA07A;
+}
+header{
+    background-color:#f8c9b7;
+    /* margin:0px;
+    padding:15px; */
+    font-family: 'Sriracha', cursive;
+}
+.caja{
+    display:flex;
+    width:90%;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    background-position:50px 10px ;
+    color:#000000;
+    text-decoration: none;
+}
+.caja-2{
+    display:flex;
+    align-items:center;
+}
+h1{
+    color:black;
+    font-family:Bradleys;
+    font-size:20px;
+    font-weight: bold;
+    margin-right:10px ;
+}
+.unidades{
+    margin:0 auto;
+    display :flex; 
+    width:70%;
+    justify-content:space-around;
+    align-items:center
+}
+.tema{
+    padding:25px;
+    text-align:center;
+}
+h2{
+    color:white;
+    font-family:AR ESSENCE;
+    font-size:50px ;
+    text-align: center;
+    margin-top:10px ;
+}
+h3{
+    color:#8C3C2B;
+    font-family:AR CENA;
+    font-size:40px;
+    margin:10px 10px 10px 10px;
+    text-shadow:1px 1px 0px #000000 ;
+
+}  
+h4{
+    padding: 10px 10px ;
+    width: 400px;
+    margin: 10px 50px;
+}
+
+h4:active{
+    background: crimson;
+}
+.iman{
+    border: 10px solid #B53471;
+    width:300px;
+    height:300px;
+    transition:all .2s;
+}
+.iman:hover{
+    cursor:pointer;
+    transform : scale(1.05);
+}
+.fas.fa-envelope, .fas.fa-user-alt{
+    font-size:30px;
+    margin-left:10px;
+}
+.fas.fa-envelope:hover, .fas.fa-user-alt:hover{
+    color:#424279;
+}
